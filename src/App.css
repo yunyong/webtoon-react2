@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes:none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {font-size:100%;vertical-align:middle}
+button {border:0 none;background-color:transparent;cursor:pointer}
+table {border-collapse:collapse;border-spacing:0}
+body{-webkit-text-size-adjust:none} input[type='text'],input[type='password'],input[type='submit'],input[type='search'] {-webkit-appearance:none; border-radius:0}
+input:checked[type='checkbox'] {background-color:#666; -webkit-appearance:checkbox}
+button,input[type='button'],input[type='submit'],input[type='reset'],input[type='file'] {-webkit-appearance:button; border-radius:0}
+body {min-width:320px;background-color:#fff}
+
+a {color:#333;text-decoration:none} a:active, a:hover {text-decoration:none}
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
+
+.ir_pm {display:block;overflow:hidden;font-size:0px;line-height:0;text-indent:-9999px} .ir_wa {display:block;overflow:hidden;position:relative;z-index:-1;width:100%;height:100%} .screen_out {display:block;overflow:hidden;position:absolute;left:-9999px;width:1px;height:1px;font-size:0;line-height:0;text-indent:-9999px} .screen_hide {font-size:0;line-height:0;visibility:hidden}
+.f_l {float:left}
+.f_r {float:right}
+.clear_g {display:block;overflow:visible;width:auto;clear:both;*zoom:1}
+.clear_g:after {display:block;visibility:hidden;height:0;font-size:0;clear:both;content:''}
+.cl_b {width:0;height:0;font-size:0;line-height:0;clear:both}
+.show {display:block}
+.hide {display:none}
+.tbl {border-collapse:collapse;border-spacing: 0}
+
+body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Malgun Gothic', '맑은 고딕', sans-serif;color:#333}
+
+.box_ad {height:200px;background-color:#eee}
+
+.top_content {position:relative;height:160px;padding:0 10px}
+.top_content .img_top {position:absolute;top:0;right:0;width:auto;height:160px}
+.top_content .tit_data {display:block;padding:10px 0 0 10px}
+.top_content .txt_data {display:block;padding:10px 0 0 10px}
+.top_content.on {transition:2s}
+
+.gnb {position:absolute;top:160px;left:0;z-index:10;width:100%}
+.gnb .inner_gnb {overflow:hidden;height:40px}
+.gnb a {float:left;width:25%;height:40px;line-height:40px;text-align:center;color:rgba(255,255,255,0.5)}
+.gnb a.on {color:#fff}
+.bg_gnb {height:40px;background-color:#000}
+
+.main_list {position:relative;padding-left:80px}
+.main_list .lnb {position:absolute;top:0;left:0;width:80px;text-align:center}
+.daum_wrap {overflow:hidden;width:100%}
+.list_webtoon .link_webtoon {display:block;position:relative;height:86px;padding-right:100px;border-bottom:1px solid #eee}
+.list_webtoon .tit_webtoon {display:block}
+.list_webtoon .txt_artist {display:block}
+.list_webtoon .img_webtoon {position:absolute;bottom:0;right:10px}
+.list_webtoon .img_webtoon .img_thumb {display:block;width:100px;height:76px}
+
+#webtoonHomeContent {}
+#webtoonHomeContent .bar_top {position:fixed;z-index:10;width:100%;height:40px;border-bottom:1px solid #ccc;background-color:#fff}
+#webtoonHomeContent .wrap_cont {}
+#webtoonHomeContent .cont_img {overflow:hidden;position:relative;height:200px;border-bottom:1px solid #000}
+#webtoonHomeContent .cont_img .bg_top {position:absolute;bottom:-20px;left:0;width:100%;height:180px;background:no-repeat 50% 50%;background-size:cover}
+#webtoonHomeContent .cont_img .img_top {display:block;position:relative;height:200px;margin:0 auto}
+#webtoonHomeContent .cont_txt {display:table;width:100%;height:200px;background-color:#f5f5f5}
+#webtoonHomeContent .cont_txt .desc_txt {display:table-cell;padding:0 20px;text-align:center;vertical-align:middle}
+#webtoonHomeContent .wrap_cont_img {overflow:hidden;position:absolute;top:0;left:50%;z-index:110;width:263px;height:200px;margin-left:-131px;}
+#webtoonHomeContent .wrap_cont_img .img_top {display:block;position:relative;width:263px;height:200px}
+
+#webtoonInfo {padding:10px 0;text-align:center}
+#webtoonInfo .tit_webtoon {display:block;padding-bottom:5px}
+
+#episodeList .list_episode {overflow:hidden}
+#episodeList .list_episode li {float:left;width:33.3%}
+#episodeList .list_episode .link_webtoon {display:block;width:100%}
+#episodeList .list_episode .link_webtoon.on {background-color:#000}
+#episodeList .list_episode .link_webtoon.off {opacity:.3}
+#episodeList .list_episode .img_thumb {display:block;width:100%;height:auto}
+#episodeList .list_episode .wrap_episode {padding:6px;}
+#episodeList .list_episode .tit_episode {overflow:hidden;height:26px;line-height:26px;font-size:12px;text-overflow:ellipsis;white-space:nowrap}
+#episodeList .list_episode .txt_date {font-size:12px;color:#999}
+
+#payOptionBar {position:fixed;top:0;left:0;z-index:120;width:100%;height:40px;border-bottom:1px solid #000;background-color:#fff;transition:0.5s}
+#payOptionBar.on {transform:translate(0,0)}
+#payOptionBar.off {transform:translate(0,-41px)}
+
+#bottomBar {position:fixed;bottom:0;left:0;z-index:120;width:100%;height:40px;border-top:1px solid #000;background-color:#fff;transition:0.5s}
+#paySizeBar {position:fixed;bottom:0;left:0;z-index:120;width:100%;height:40px;border-top:1px solid #000;background-color:#000;transition:0.5s;color:#fff;text-align:center}
+#paySizeBar.on {transform:translate(0,0)}
+#paySizeBar.off {transform:translate(0,41px)}
+
+#viewer .tit_episode {position:fixed;top:0;left:0;width:100%;height:40px;height:40px;border-bottom:1px solid #ccc;line-height:40px;text-align:center;background:#fff;transition:0.5s;transform:translate(0,-41px)}
+#viewer .tit_episode.on {transform:translate(0,0)}
+#viewer .nav_btns {position:fixed;bottom:0;left:0;width:100%;height:40px;height:40px;border-top:1px solid #ccc;line-height:40px;text-align:center;background:#fff;transition:0.5s;transform:translate(0,41px)}
+#viewer .nav_btns.on {transform:translate(0,0)}
+#imageView .wrap_img {min-width:320px}
+#imageView .img_episode {display:block;width:100%;height:auto}
